@@ -512,11 +512,15 @@ img{
 .skills__css{
   width: 85%;
 }
-.skills__js{
+.skills__redux{
   width: 80%;
 }
 .skills__react{
   width: 80%;
+}
+
+.skills__web{
+  width: 85%;
 }
 
 .skills__mongodb{
@@ -525,20 +529,28 @@ img{
 .skills__node{
   width: 75%;
 }
-.skills__python{
-  width: 90%;
+.skills__django{
+  width: 95%;
 }
 .skills__sql{
   width: 70%;
 }
 
-.skills__figma{
-  width: 70%;
+.skills__restfulapis{
+  width: 85%;
 }
-.skills__sketch{
-  width: 65%;
+
+.skills__express{
+  width: 85%;
 }
-.skills__photoshop{
+
+.skills__python{
+  width: 90%;
+}
+.skills__js{
+  width: 95%;
+}
+.skills__java{
   width: 70%;
 }
 
