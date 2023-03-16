@@ -35,6 +35,7 @@ const skillsContent = document.getElementsByClassName('skills__content'),
 
 function toggleSkills(){
     let itemClass = this.parentNode.className
+
     for (i = 0; i  < skillsContent.length; i++){
         skillsContent[i].className = 'skills__content skills__close'
     }
@@ -54,6 +55,7 @@ const tabs = document.querySelectorAll('[data-target]'),
 tabs.forEach(tab => {
     tab.addEventListener('click', () => {
         const target = document.querySelector(tab.dataset.target)
+        
         tabContents.forEach(tabContents => {
             tabContent.classList.remove('qualification__active')
         })
