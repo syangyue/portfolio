@@ -55,8 +55,8 @@ const tabs = document.querySelectorAll('[data-target]'),
 tabs.forEach(tab => {
     tab.addEventListener('click', () => {
         const target = document.querySelector(tab.dataset.target)
-        
-        tabContents.forEach(tabContents => {
+
+        tabContents.forEach(tabContent => {
             tabContent.classList.remove('qualification__active')
         })
         target.classList.add('qualification__active')
