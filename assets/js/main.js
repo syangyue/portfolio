@@ -92,15 +92,26 @@ modalCloses.forEach((modalClose) => {
 })
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-var swiper = new Swiper(".portfolio__container", {
-    slidesPerView: "auto",
-    centeredSlides: true,
-    spaceBetween: 30,
+var swiper = new Swiper('.portfolio__container', {
+    cssMode: true,
+    loop: true,
+
+    navigation: {
+        nextE1: '.swiper-button-next',
+        prevE1: '.swiper-button-prev',
+    },
+
+    // slidesPerView: "auto",
+    // centeredSlides: true,
+    // spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
+    mousewheel: true,
+    keyboard: true,
   });
+
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonial = new Swiper('.testimonial__container', {
     loop: true,
