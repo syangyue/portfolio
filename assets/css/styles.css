@@ -262,7 +262,7 @@ img{
 
 /* Change background header */
 .scroll-header{
-  box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+  box-shadow: 0 -1px 4px rgba(0,0,0,.15);
 }
 
 
@@ -784,7 +784,7 @@ img{
   right: -.5rem;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets{
+.swiper-container-horizontal > .swiper-pagination-bullets{
   bottom: -2.5rem;
 }
 
@@ -1055,26 +1055,7 @@ img{
   .services__modal{
     padding: 0 .5rem;
   }
-
-  .project__img{
-    width: 200px;
-  }
-
-  .testimonial__data,
-  .testimonial__header{
-    flex-direction: column;
-    align-items: center;
-  }
-  .testimonial__img{
-    margin-right: 0;
-    margin-bottom: var(--mb-0-25);
-  }
-  .testimonial__data,
-  .testimonial__description{
-    text-align: center;
-  }
 }
-
 /* For medium devices */
 @media screen and (min-width: 568px){
   .home__content{
@@ -1100,7 +1081,7 @@ img{
   .qualification__sections{
     display: grid;
     grid-template-columns: .6fr;
-    justify-self: center;
+    justify-content: center;
   }
 }
 
@@ -1143,7 +1124,7 @@ img{
   }
   .nav__list{
     display: flex;
-    column-gap: 2px;
+    column-gap: 2rem;
   }
   .nav__menu{
     margin-left: auto;
@@ -1215,24 +1196,6 @@ img{
   .portfolio__content{
     align-items: center;
   }
-
-  .project{
-    text-align: initial;
-  }
-  .project__bg{
-    background-color: none;
-  }
-  .project__container{
-    background-color: var(--first-color-second);
-    border-radius: 1rem;
-    padding: 3rem 2.5rem 0;
-    grid-template-columns: 1fr max-content;
-    column-gap: 3rem;
-  }
-  .project__data{
-    padding-top: .8rem;
-  }
-
   .footer__container{
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1286,7 +1249,7 @@ img{
     bottom: -4.5rem;
   }
 
-  .content__form{
+  .contact__form{
     width: 460px;
   }
   .contact__inputs{
