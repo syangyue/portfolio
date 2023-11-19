@@ -494,31 +494,31 @@ img {
 }
 
 .skills__html {
-  width: 90%;
+  width: 95%;
 }
 
 .skills__css {
-  width: 85%;
+  width: 90%;
 }
 
 .skills__redux {
-  width: 80%;
+  width: 90%;
 }
 
 .skills__react {
-  width: 80%;
+  width: 98%;
 }
 
 .skills__web {
-  width: 85%;
+  width: 98%;
 }
 
 .skills__node {
-  width: 75%;
+  width: 95%;
 }
 
 .skills__mongodb {
-  width: 80%;
+  width: 90%;
 }
 
 .skills__django {
@@ -526,23 +526,23 @@ img {
 }
 
 .skills__number {
-  width: 70%;
+  width: 90%;
 }
 
 .skills__sql {
-  width: 70%;
+  width: 95%;
 }
 
 .skills__restfulapis {
-  width: 85%;
+  width: 92%;
 }
 
 .skills__express{
-  width: 85%;
+  width: 95%;
 }
 
 .skills__python {
-  width: 90%;
+  width: 92%;
 }
 
 .skills__js {
@@ -550,7 +550,7 @@ img {
 }
 
 .skills__java{
-  width: 70%;
+  width: 88%;
 }
 
 
@@ -750,7 +750,9 @@ img {
 }
 
 .portfolio__img {
+  position: relative;
   width: 265px;
+  min-height: 60;
   border-radius: .5rem;
   justify-self: center;
 }
