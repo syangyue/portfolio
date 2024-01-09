@@ -752,9 +752,11 @@ img {
 .portfolio__img {
   position: relative;
   width: 265px;
-  min-height: 60;
+  height: 265px;
+
   border-radius: .5rem;
-  justify-self: center;
+  /* justify-self: center; */
+  align-self: top;
 }
 
 .portfolio__title {
