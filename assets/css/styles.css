@@ -755,8 +755,8 @@ img {
   height: 265px;
 
   border-radius: .5rem;
-  /* justify-self: center; */
-  align-self: top;
+  justify-self: center;
+  align-self: center;
 }
 
 .portfolio__title {
